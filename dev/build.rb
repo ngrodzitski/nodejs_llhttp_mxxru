@@ -24,5 +24,5 @@ MxxRu::Cpp::composite_target( MxxRu::BUILD_ROOT ) {
 		global_obj_placement MxxRu::Cpp::RuntimeSubdirObjPlacement.new( 'target' )
 	end
 
-	required_prj 'nodejs/llhttp_parser_mxxru/prj.rb'
+	required_prj 'nodejs/llhttp_mxxru/prj.rb'
 }
